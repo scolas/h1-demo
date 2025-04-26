@@ -1,0 +1,9 @@
+<h2>Employee-Focused</h2>
+<div class="row" *ngFor="let card of cards">
+    <app-growth-card
+        [title]="card.title"
+        [icon]="card.icon"
+        [items]="card.items"
+    ></app-growth-card>
+   
+</div>

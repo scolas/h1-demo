@@ -1,0 +1,7 @@
+.top-banner {
+    height: 80vh;
+    background-image: url('https://www.hpone.com/images/hero-img-01.png');
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+  }
