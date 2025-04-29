@@ -4,6 +4,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { TopBannerComponent } from './components/top-banner/top-banner.component';
 import { OurMissionComponent } from './components/our-mission/our-mission.component';
 import { CompanygrowthComponent } from './components/companygrowth/companygrowth.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+
 @Component({
   selector: 'app-root',
   imports: [
@@ -11,7 +13,8 @@ import { CompanygrowthComponent } from './components/companygrowth/companygrowth
      NavbarComponent,
      TopBannerComponent,
      OurMissionComponent,
-     CompanygrowthComponent
+     CompanygrowthComponent,
+     TestimonialsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

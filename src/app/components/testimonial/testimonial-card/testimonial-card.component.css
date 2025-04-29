@@ -1,0 +1,23 @@
+/* testimonial-card.component.css */
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .timage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .tname {
+    font-weight: bold;
+  }
+  
+  .tposition,
+  .tlocation {
+    font-size: 16px;
+    color: gray;
+  }
