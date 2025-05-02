@@ -8,6 +8,7 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [
     RouterOutlet,
      NavbarComponent,
