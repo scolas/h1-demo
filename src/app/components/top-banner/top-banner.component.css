@@ -1,7 +1,18 @@
-.top-banner {
+/*.top-banner {
     height: 80vh;
     background-image: url('https://www.hpone.com/images/hero-img-01.png');
     background-size: cover;
     background-position: center;
     background-color: blue;
+  }*/
+
+  .top-banner {
+    background-color: #1E2063;
+    padding: 4rem 1rem;
+  }
+  
+  .hpone-img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
   }
