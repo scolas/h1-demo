@@ -18,7 +18,7 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
      TestimonialsComponent
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'healthPlanOne';
